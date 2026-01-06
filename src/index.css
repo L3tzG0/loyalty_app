@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Optional: base font and reset tweaks */
+
+html,
+body {
+  @apply min-h-screen bg-[#121212] text-[#F5F5F5] font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: smooth scroll and better touch feel */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* If you want to define your default font-family here (optional) */
+:root {
+  --font-main: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+}
